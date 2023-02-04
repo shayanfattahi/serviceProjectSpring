@@ -14,7 +14,7 @@ public interface OrderRepo extends JpaRepository<Ordered , Long> {
 
     Optional<Ordered>readOrderedsByAcceptedIsTrueAndClientId(Long id);
 
-    Optional<Ordered>readOrderedsByAcceptedIsTrueAndDoneIsTrue = null;
+    Optional<Ordered>readOrderedsByAcceptedIsTrueAndDoneIsTrueAndClientId(Long id);
 
     //yedoone joindar moonde
 //    Optional<Ordered>
